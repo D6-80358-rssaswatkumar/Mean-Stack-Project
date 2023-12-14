@@ -1,0 +1,25 @@
+.navbar-brand{
+    color: red;
+    font-size: 50px;
+    font-family: 'MuseoModerno', cursive;
+    
+    
+}
+.navbar-nav
+{
+    font-size: 20px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+#navigation
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTginw7h9Khn3TVdnW46bTpAKSVJ28IBrQidsB7vGcifnmNrEv8&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    line-height: 50px;
+}
+a:hover {
+    text-decoration: underline;
+  }

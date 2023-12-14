@@ -1,0 +1,14 @@
+#bg-img {
+    background-image: url("https://kecbio.com/wallpaper/simple-hot-pink-wallpaper-desktop-background-For-Full-Resolution-Wallpaper.jpg");
+    min-height: 980px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.control{
+      padding-top: 5%;
+      padding-right: 30%;
+      padding-left: 30%;
+      color:white ;
+  }

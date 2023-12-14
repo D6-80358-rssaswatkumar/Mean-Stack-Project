@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Lobster&family=Pacifico&display=swap');
+
+
+ h1
+{
+    color: red;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+} 
+h3{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    color:#b35900;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+img{
+   padding-left: 550px;
+   height: 400px;
+}

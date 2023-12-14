@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Lobster&family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  }
+h2
+{
+  text-align: left;
+  padding-top: 3%;
+  color:white;
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+
+}
+#bg-img {
+    
+  background-image: url("https://kecbio.com/wallpaper/simple-hot-pink-wallpaper-desktop-background-For-Full-Resolution-Wallpaper.jpg");
+  min-height: 980px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}

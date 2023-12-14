@@ -1,0 +1,26 @@
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+<app-header></app-header>
+<div class="container-fluid" id="bg-img">
+    <div class="control">
+        <div class="row">
+            <div class="col-md-12">
+                <h2><img src="https://img.icons8.com/fluent/48/000000/add-user-male.png"/> Register Here</h2>
+                <div class="alert alert-success" *ngIf="isRegister">{{successMessage}}</div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="fullName" [(ngModel)]="fullName"
+                        placeholder="Full name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" [(ngModel)]="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" [(ngModel)]="password"
+                        placeholder="password">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success" (click)="onCreateUser()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

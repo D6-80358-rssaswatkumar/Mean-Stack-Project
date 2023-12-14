@@ -1,0 +1,24 @@
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+<app-header></app-header>
+<div class="bg-img">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Recent Posts</h2>
+                <div class="card text-white bg-light mb-3" *ngFor="let post of posts">
+                    <div class="card-header">
+                        {{post.title}}
+                    </div>
+                    <div class="card-body">
+                        {{post.body}}
+                    </div>
+                    <div>
+                        <button class="btn btn-warning " [routerLink]="['/editPost',post.id,post.title]">Update Post</button>
+                        <button class="btn btn-danger float-right " (click)="onDeletePost(post)">Delete Post</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

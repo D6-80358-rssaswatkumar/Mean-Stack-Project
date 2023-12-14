@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Lobster&family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: white;
+  
+  }
+#bg{
+    
+  background-image: url(https://wallpaperaccess.com/full/1092699.png);
+  height: 720px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+a{
+  font-size:150px;
+  font-family: 'Dancing Script', cursive
+}
+h4{
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'MuseoModerno', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+}
+h5{
+  font-family: 'Comfortaa', cursive;
+}
+b{
+  font-family: 'Comfortaa', cursive;
+
+}
+b:hover {
+ color: yellow;
+}
